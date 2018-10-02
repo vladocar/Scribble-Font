@@ -1,0 +1,30 @@
+
+*{ box-sizing: border-box}
+
+.p10,.p12,.p17,.p20,.p25,.p33,.p40,.p50,.p60,.p67,.p75,.p80,.p83,.p100{box-sizing: border-box;
+  margin:0 0 0 15px; float:left;
+ }
+
+.p10{width:calc(10% - 15px)}
+.p12{width:calc(12.5% - 15px)}
+.p17{width:calc(16.6667% - 15px)}
+.p20{width:calc(20% - 15px)}
+.p25{width:calc(25% - 15px)}
+.p33{width:calc(33.3334% - 15px)}
+.p40{width:calc(40% - 15px)}
+.p50{width:calc(50% - 15px)}
+.p60{width:calc(60% - 15px)}
+.p67{width:calc(66.6667% - 15px)}
+.p75{width:calc(75% - 15px)}
+.p80{width:calc(80% - 15px)}
+.p83{width:calc(83.3334% - 15px)}
+.p100{width:calc(100% - 15px)}
+
+
+.clear{width: 100%; clear: both;}
+.nomargin{padding:0 !important;margin:0 !important}
+
+@media all and (max-width: 480px) {
+  .main{width:98% !important; margin: 0 auto}
+  .p10,.p12,.p17,.p20,.p25,.p33,.p40,.p50,.p60,.p67,.p75,.p80,.p83,.p100 {width:100%}
+}

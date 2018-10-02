@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" href="floaty.css">
+
+    <title>Scribble Font</title>
+    <style>
+    @font-face {
+        font-family: 'scribbleregular';
+        src: url('scribble-webfont.woff2') format('woff2'),
+             url('scribble-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+        body {
+            margin: 0;
+            font-family: Helvetica, Arial sans-serif;
+
+        }
+          h1{font-size:40px; margin-bottom: 0}
+        .scribble{
+          font: 21px/1.6 'scribbleregular';
+        }
+        textarea{width: 100%; height: 750px; padding: 10px}
+
+        .main {
+            margin: 0 auto;
+            width: 980px;
+        }
+
+        .p10,
+        .p12,
+        .p17,
+        .p20,
+        .p25,
+        .p33,
+        .p40,
+        .p50,
+        .p60,
+        .p67,
+        .p75,
+        .p80,
+        .p83,
+        .p100,
+        .fluid {
+            background-color: #F8ECC2;
+            border:1px solid #F5A361;
+            color: #222;
+            padding: 10px;
+            margin: 10px 0 10px 15px;
+
+        }
+
+        .noborder{border: 0; background-color:#fff}
+        .center{text-align: center;}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="p100 noborder center"><h1>Scribble Font</h1></div>
+        <div class="p100 center">Make Wireframes Great Again</div>
+        <div class="p100">Scribble is great for Prototyping & Wireframing so you can focus on the form of the text and not the text meaning. Also it looks cool :) </div>
+
+        <div class="p50"><p>This is Lorem ipsum with the Scribble Font:</p><p class="scribble">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec vulputate lorem. In eu tortor nec metus consectetur porta in ut urna. Nam ac diam orci. Phasellus eget sapien elementum, auctor turpis in, pellentesque massa. Sed dignissim, neque eget faucibus finibus, ligula urna posuere felis, eu consequat odio tortor at diam. Aenean pulvinar rutrum orci et imperdiet. Sed quis interdum risus, scelerisque placerat velit. Phasellus aliquet pulvinar eros, in pharetra mauris gravida ac. Phasellus nisi lorem, vulputate eget semper sed, molestie in lacus. Maecenas vehicula felis pulvinar condimentum venenatis. Nullam id tincidunt nulla. Morbi ut arcu convallis, consectetur dolor ac, facilisis dui. Phasellus magna augue, malesuada lobortis leo in, vulputate cursus nisl. Sed eget egestas urna, id placerat nulla.</p></div>
+        <div class="p50"><p>Test Area: </p><textarea class="scribble"></textarea></div>
+
+        <div class="p100 center"><a href="https://github.com/vladocar/Scribble-Font">Download on Github</a></div>
+        <div class="p100 center"> Made with ♥ by <a href="https://github.com/vladocar/">@vladocar</a>. Licensed under the MIT License.</div>
+
+    </div>
+</body>
+
+</html>
