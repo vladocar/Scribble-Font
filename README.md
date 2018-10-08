@@ -2,9 +2,14 @@
 
 <p align="center"> Make Wireframes Great Again </p>
 
-<hr/>
+Demo1:
 
 <p align="center"><img src="Demo-Scribble.png" /></p>
+
+Demo2: 
+<p align="center"><img src="Demo-Scribble1.png" /></p>
+
+<hr/>
 
 <p> Scribble is replacment for Lorem Ipsum Text and works great with low fidelity wireframes. </p>
 
