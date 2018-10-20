@@ -17,6 +17,14 @@ Demo2:
 
 You can test the demo here: https://vladocar.github.io/Scribble-Font/
 
+<p>CDN:</p>
+
+https://unpkg.com/scribble-font@1.0.0/scribble-webfont.woff
+
+https://unpkg.com/scribble-font@1.0.0/scribble-webfont.woff2
+
+https://unpkg.com/scribble-font@1.0.0/font/Scribble.ttf
+
 <h3>License</h3>
 
 This project is licensed under the MIT License
