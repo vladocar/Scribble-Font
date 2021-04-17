@@ -25,6 +25,8 @@ https://unpkg.com/scribble-font@1.0.0/scribble-webfont.woff2
 
 https://unpkg.com/scribble-font@1.0.0/font/Scribble.ttf
 
+Find more similar fonts here: https://www.designinspiration.info/free-fonts-for-lo-fi-wireframing/
+
 <h3>License</h3>
 
 This project is licensed under the MIT License
